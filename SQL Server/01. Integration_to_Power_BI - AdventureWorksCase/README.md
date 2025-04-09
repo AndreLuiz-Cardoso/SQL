@@ -25,6 +25,13 @@ The view `RESULTADOS_ADW` was created to join and transform relevant data from m
 - Calculated `SALES PROFIT` directly in the view for better reuse
 - Renamed columns to English-friendly business names, ready for visual tools like Power BI
 
+### 🧠 Notable SQL Highlights
+
+- `REPLACE(REPLACE(dc.Gender, 'M', 'Male'), 'F', 'Female')`: Transforms coded gender values into readable labels for use in visualizations.
+- `SalesAmount - TotalProductCost AS SALES PROFIT`: Calculates profit directly in SQL to simplify metrics in Power BI.
+- `INNER JOIN DimProductSubcategory dps ON ...`: Chain of joins used to reach the product category from the sales fact table.
+- `dc.FirstName + ' ' + dc.LastName`: Concatenates customer names into a single field for readability in visuals.
+
 ---
 
 ## 🚀 Why use a SQL View?
