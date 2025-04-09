@@ -22,6 +22,7 @@ SQL-Server/
 ├── 05_Views_Procedures/           # Modular SQL: views and stored procedures
 ├── 06_Window_Functions/           # Ranking, partitioning, time-series functions
 └── 07_Data_Modeling_Cases/        # Business-oriented scenarios and data prep
+```
 
 ---
 
